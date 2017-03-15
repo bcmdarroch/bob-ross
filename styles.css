@@ -1,3 +1,32 @@
+img {
+  float: left;
+  clear: both;
+}
+
+article:nth-of-type(odd) {
+  max-width: 70%;
+  float: left;
+}
+
+article:nth-of-type(even) {
+  max-width: 25%;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+main {
+  margin-top: 160px;
+}
+
 /* All images should be short */
 img {
   height: 300px;
